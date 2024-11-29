@@ -18,6 +18,7 @@ def on_click(symbol):
 
 root = tk.Tk()
 root.title("Calculadora")
+root.geometry("500x400")
 
 entry = tk.Entry(root,width=35, borderwidth=5, font=('Arial', 18))
 entry.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
